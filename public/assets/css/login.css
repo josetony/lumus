@@ -1,0 +1,142 @@
+/**********FRAMES DE OPACIDDADE***/
+
+
+body { 
+	
+	font-family: "open sans", arial;
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	
+	background: url('../images/log.jpg') no-repeat center center fixed; 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+#log-about{
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay:3s;
+}
+
+
+
+#log-login{
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay:3s;
+}
+
+img{
+	max-height: 100%;
+	max-height: 100%;
+}
+
+.log-wraper{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.log-about{
+	width: 100%;
+	height: 350px;
+	background: #24262e;
+	margin-top: 200px;
+	opacity: 0.8;
+}
+.alog-about-content{
+	width: 40%;
+	height: 100%;
+	float: left;
+	padding: 50px 20px 20px 20px;
+	color: #fff;
+}
+
+.alog-about-content h3{
+	margin: 30px 0;
+}
+
+.alog-about-content a{
+	border-radius: 0;
+	border:1px solid #fff;
+	margin: 2px;
+	color: #fff;
+}
+
+.log-login{
+	width: 480px;
+	height: 460px;
+	background: #fff;
+	
+	position: absolute;
+	margin-top: -30%;
+	
+	margin-left: 25%;
+
+	border:1px solid #dddbdb;
+
+	padding: 90px 50px;
+
+}
+
+.log-login form{
+	width: 100%;
+	height: 100%;
+}
+
+.log-login h2{
+	margin: 30px 0;
+	color: #e47f1c;
+}
+
+.log-login form input{
+	border-radius: 0;
+	outline: none;
+	color: #a8a8a7;
+}
+.glyphicon{
+	color: #a8a8a7;
+}
+
+.login-esqueci{
+	color: #e47f1c;
+}
+.log-login form .btn{
+	margin-left: 15%;
+	padding: 5px 30px;
+	float: right;
+	background-color: #e47f1c;
+	color: #fff;
+	border-radius: 2px;
+	border:1px solid #dddbdb;
+}
+
+.log-login form .btn:hover{
+	background-color: #f69b43;
+}
+
+.select-area{
+	border-radius: 0;
+	color: #a8a8a7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
