@@ -15,7 +15,9 @@ class Home extends Controller {
 
     public function index() {
 
-        echo $this->user->find(2)->email;
+        $nome = Usuario::where("email", "devme.tony@gmail.com")->where("senha","123456")->get();
+
+        echo $nome[0]->nome;
 
     }
 

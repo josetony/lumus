@@ -8,7 +8,7 @@
 
 class Usuario extends Model {
 
-    protected $fillable = ["nome","email"];
+    protected $fillable = ["nome","email","avatar"];
     public $timestamps = [];
 
 }
